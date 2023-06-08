@@ -21,6 +21,7 @@ header{
   justify-content: space-around;
   border-bottom: 1px solid #202020;
   position: fixed;
+  z-index: 3;
 }
 ul{
     display: flex;
@@ -54,7 +55,7 @@ i{
 }
 .left{
     width: 50px;
-    height: 600px;
+    height: 681px;
     border: 1px solid #202020;
     display: flex;
     flex-direction: column;
@@ -134,15 +135,16 @@ h1{
 }
 .right{
     width: 50px;
-    height: 600px;
+    height: 681px;
     border: 1px solid #202020;
     background-color: #090909;
     border-top: none;
 }
 .About{
+    height: 1000px;
     display: flex;
     justify-content: space-between;
-    
+    border-bottom:1px solid #202020;
 }
 
 .left-1{
@@ -161,8 +163,7 @@ h1{
     width: 55px;
     height: 55px;
     border: 2px solid #E5540A;
-   
-    
+   margin-top: 30px;
 }
 .aboutme div{
     color: #E5540A;
@@ -172,7 +173,7 @@ h1{
     margin-top: 6px;
     padding-top: 5px;
     background-color: #090909;
-    
+    font-family: 'Noto Sans KR', sans-serif; 
 }
 .aa{
     color: white;
@@ -208,4 +209,97 @@ h5{
 .funfact-2{
     color: white;
     font-size: 0.5em;
+}
+.right1{
+    width: 55px;
+    height: 1000px;
+    border: 1px solid #202020;
+    background-color: #090909;
+    border-top: none;
+}
+.left1{
+    width: 55px;
+    height: 1000px;
+    border: 1px solid #202020;
+    background-color: #090909;
+    border-top: none;
+}
+.service{
+    display: flex;
+    flex-direction: row;
+}
+.left2{
+    width: 50px;
+    height: 700px;
+    border: 1px solid #202020;
+    background-color: #090909;
+    border-top: none;
+}
+.right2{
+    width: 50px;
+    height: 700px;
+    border: 1px solid #202020;
+    background-color: #090909;
+    border-top: none;
+}
+.middle2{
+    width: calc(100% - 100px);
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 100px);
+    height: 450px;
+    border: 1px solid rebeccapurple;
+}
+.check{
+    width: 55px;
+    height: 55px;
+    border: 2px solid #E5540A;
+}
+.check div{
+    color: #E5540A;
+    width: 120px;
+    height: 38px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #090909;
+    font-family: 'Noto Sans KR', sans-serif; 
+}
+.mybest{
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 3.5em;
+}
+.box div{
+    width: 338px;
+    height: 440px;
+    background-color: #0C0C0C;
+    border: 1px solid #202020;
+    border-bottom: none;
+    border-top: none;
+}
+.box div:hover{
+    background-color: #252525;
+    transition: 1s all;
+}
+.box .box2{
+ border-left: none;
+}
+.box .box3{
+    border-right: none;
+}
+.box div h3{
+    color: white;
+}
+.box div p{
+    color: white;
+}
+.box div i{
+    color: #E5540A;
 }
