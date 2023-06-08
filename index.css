@@ -20,6 +20,7 @@ header{
   align-items: center;
   justify-content: space-around;
   border-bottom: 1px solid #202020;
+  position: fixed;
 }
 ul{
     display: flex;
@@ -137,4 +138,74 @@ h1{
     border: 1px solid #202020;
     background-color: #090909;
     border-top: none;
+}
+.About{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left-1{
+    
+    width: 50%;
+}
+.right-1{
+   
+    width: 50%;
+}
+.sekil2{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.aboutme{
+    width: 55px;
+    height: 55px;
+    border: 2px solid #E5540A;
+   
+    
+}
+.aboutme div{
+    color: #E5540A;
+    width: 90px;
+    height: 38px;
+    text-align: center;
+    margin-top: 6px;
+    padding-top: 5px;
+    background-color: #090909;
+    
+}
+.aa{
+    color: white;
+    font-size: 3.6em;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+h5{
+    color: gray;
+    font-size: 1.8em;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-left: 100px;
+    padding-right: 40px;
+}
+.info{
+    color: gray;
+    font-size: 1em;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.funfact{
+    display: flex;
+    justify-content: space-between;
+    color: #E5540A;
+    width: 600px;
+    padding-top: 50px;
+    padding-left: 110px;
+    font-family: 'Noto Sans KR',sans-serif;
+    font-size: 2em;
+}
+.funfact-2{
+    color: white;
+    font-size: 0.5em;
 }
