@@ -230,21 +230,21 @@ h5{
 }
 .left2{
     width: 50px;
-    height: 700px;
+    height: 740px;
     border: 1px solid #202020;
     background-color: #090909;
     border-top: none;
 }
 .right2{
     width: 50px;
-    height: 700px;
+    height: 740px;
     border: 1px solid #202020;
     background-color: #090909;
     border-top: none;
 }
 .middle2{
     width: calc(100% - 100px);
-    height: 700px;
+    height: 740px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -255,7 +255,6 @@ h5{
     flex-direction: row;
     width: calc(100% - 100px);
     height: 450px;
-    border: 1px solid rebeccapurple;
 }
 .check{
     width: 55px;
@@ -279,10 +278,14 @@ h5{
 .box div{
     width: 338px;
     height: 440px;
-    background-color: #0C0C0C;
+    background-color: #E5540A;
     border: 1px solid #202020;
     border-bottom: none;
     border-top: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 7px;
 }
 .box div:hover{
     background-color: #252525;
@@ -295,11 +298,24 @@ h5{
     border-right: none;
 }
 .box div h3{
-    color: white;
+    color: #090909;
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 1.8em;
 }
 .box div p{
-    color: white;
+    color:#090909;
+    font-family: 'Noto Sans KR', sans-serif; 
 }
 .box div i{
     color: #E5540A;
+    font-size: 1.3em;
+}
+.arrow{
+    border: 1px solid #090909;
+    width: 40px;
+    height: 40px;
+}
+.arrow:hover{
+    background-color: #3E3E40;
+    border: 1px solid #E5540A;
 }
